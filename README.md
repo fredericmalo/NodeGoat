@@ -76,7 +76,7 @@ The database comes pre-populated with these user accounts created as part of the
 By default the application will be hosted on port 4000 and will connect to a MongoDB instance at localhost:27017. To change this set the environment variables `PORT` and `MONGODB_URI`.
 
 Other settings can be changed by updating the [config file](https://github.com/OWASP/NodeGoat/blob/master/config/env/all.js).
-
+ 
 
 ### OPTION 2 - Run NodeGoat on Docker
 
