@@ -19,7 +19,7 @@ function MemosHandler(db) {
     this.displayMemos = (req, res, next) => {
 
         const {
-            userId
+            parseInt(userId)
         } = req.session;
 
         memosDAO.getAllMemos((err, docs) => {
